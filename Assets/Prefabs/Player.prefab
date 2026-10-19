@@ -2142,7 +2142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PauseMenu
   _pauseMenuUI: {fileID: 0}
-  _playerInput: {fileID: 0}
+  _playerInput: {fileID: 1517623522986831116}
 --- !u!1 &7034219560924083684
 GameObject:
   m_ObjectHideFlags: 0
