@@ -32857,50 +32857,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2514130925143951944, guid: f38f18439a7bc65498c4511618ac55c3, type: 3}
-      propertyPath: m_MoveAction
-      value: 
-      objectReference: {fileID: -8807788352986003579, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
-    - target: {fileID: 2514130925143951944, guid: f38f18439a7bc65498c4511618ac55c3, type: 3}
-      propertyPath: m_PointAction
-      value: 
-      objectReference: {fileID: -8665649238057252313, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
-    - target: {fileID: 2514130925143951944, guid: f38f18439a7bc65498c4511618ac55c3, type: 3}
-      propertyPath: m_ActionsAsset
-      value: 
-      objectReference: {fileID: -944628639613478452, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
-    - target: {fileID: 2514130925143951944, guid: f38f18439a7bc65498c4511618ac55c3, type: 3}
-      propertyPath: m_CancelAction
-      value: 
-      objectReference: {fileID: 8001319602223410814, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
-    - target: {fileID: 2514130925143951944, guid: f38f18439a7bc65498c4511618ac55c3, type: 3}
-      propertyPath: m_SubmitAction
-      value: 
-      objectReference: {fileID: 3478871692668196722, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
-    - target: {fileID: 2514130925143951944, guid: f38f18439a7bc65498c4511618ac55c3, type: 3}
-      propertyPath: m_LeftClickAction
-      value: 
-      objectReference: {fileID: 2339899014782800682, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
-    - target: {fileID: 2514130925143951944, guid: f38f18439a7bc65498c4511618ac55c3, type: 3}
-      propertyPath: m_RightClickAction
-      value: 
-      objectReference: {fileID: 4989829403978827070, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
-    - target: {fileID: 2514130925143951944, guid: f38f18439a7bc65498c4511618ac55c3, type: 3}
-      propertyPath: m_MiddleClickAction
-      value: 
-      objectReference: {fileID: 3071293457869602470, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
-    - target: {fileID: 2514130925143951944, guid: f38f18439a7bc65498c4511618ac55c3, type: 3}
-      propertyPath: m_ScrollWheelAction
-      value: 
-      objectReference: {fileID: 2633428747176304455, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
-    - target: {fileID: 2514130925143951944, guid: f38f18439a7bc65498c4511618ac55c3, type: 3}
-      propertyPath: m_TrackedDevicePositionAction
-      value: 
-      objectReference: {fileID: 686985604358604527, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
-    - target: {fileID: 2514130925143951944, guid: f38f18439a7bc65498c4511618ac55c3, type: 3}
-      propertyPath: m_TrackedDeviceOrientationAction
-      value: 
-      objectReference: {fileID: -5917106997759256309, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
     - target: {fileID: 3772761466772550771, guid: f38f18439a7bc65498c4511618ac55c3, type: 3}
       propertyPath: m_Name
       value: MasterPrefab
