@@ -50,10 +50,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6267806074748751184, guid: b4edaed2e8175a94a874e116835faed7, type: 3}
       propertyPath: m_Name
-      value: InteractableObject
+      value: NumberGenerator
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6267806074748751184, guid: b4edaed2e8175a94a874e116835faed7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 793995853224303559}
   m_SourcePrefab: {fileID: 100100000, guid: b4edaed2e8175a94a874e116835faed7, type: 3}
+--- !u!1 &6104651597522944075 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6267806074748751184, guid: b4edaed2e8175a94a874e116835faed7, type: 3}
+  m_PrefabInstance: {fileID: 163163273906031899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &793995853224303559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6104651597522944075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edea82e952128f14998c6340ed6021bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NumberGenerator

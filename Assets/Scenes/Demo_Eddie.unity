@@ -30366,6 +30366,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4197656853579804, guid: fdb2cb2d45f7f8c40929de258b8857dd, type: 3}
   m_PrefabInstance: {fileID: 227018967}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &227025079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3169974356879286250, guid: f38f18439a7bc65498c4511618ac55c3, type: 3}
+  m_PrefabInstance: {fileID: 242108385}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &227204912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68841,6 +68846,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1391880749284112665, guid: f4143b7394daad542a04035749118eed, type: 3}
+      propertyPath: _interactionText
+      value: 
+      objectReference: {fileID: 227025079}
     - target: {fileID: 3637338153470397076, guid: f4143b7394daad542a04035749118eed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9
@@ -186365,6 +186374,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8598781255631671089, guid: 07adf55a2f0efcf468be22d6ad2dc5c1, type: 3}
+      propertyPath: _interactionText
+      value: 
+      objectReference: {fileID: 227025079}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
