@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &67815736 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3169974356879286250, guid: f38f18439a7bc65498c4511618ac55c3, type: 3}
+  m_PrefabInstance: {fileID: 725160655789529169}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &420228620
 GameObject:
   m_ObjectHideFlags: 0
@@ -131,6 +136,7 @@ GameObject:
   - component: {fileID: 420228624}
   - component: {fileID: 420228623}
   - component: {fileID: 420228622}
+  - component: {fileID: 420228625}
   m_Layer: 8
   m_Name: InteractionRange
   m_TagString: Untagged
@@ -231,6 +237,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420228620}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &420228625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420228620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a995aa469ebded46b508dbb02152515, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionHandler
+  _interactionText: {fileID: 67815736}
 --- !u!1 &542508511
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,6 +988,7 @@ GameObject:
   - component: {fileID: 1077318515}
   - component: {fileID: 1077318514}
   - component: {fileID: 1077318513}
+  - component: {fileID: 1077318516}
   m_Layer: 8
   m_Name: InteractionRange
   m_TagString: Untagged
@@ -1069,6 +1089,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077318511}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1077318516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077318511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a995aa469ebded46b508dbb02152515, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionHandler
+  _interactionText: {fileID: 67815736}
 --- !u!1 &1764214107
 GameObject:
   m_ObjectHideFlags: 0

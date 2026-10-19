@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 5398446574612675533}
   - component: {fileID: 7082267376928302390}
   - component: {fileID: 8487759377126912329}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: DialogueTrigger (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1676,7 +1676,7 @@ GameObject:
   - component: {fileID: 7578296105154876401}
   - component: {fileID: 2968111820897509949}
   - component: {fileID: 505602595223154155}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: DialogueTrigger (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1880,7 +1880,7 @@ GameObject:
   - component: {fileID: 3426321384170023755}
   - component: {fileID: 9210268570067575483}
   - component: {fileID: 3349937677530490150}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: DialogueTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2203,10 +2203,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 7664116807169724676, guid: 6d07c09a1abc07e449de0006661b3b74, type: 3}
-      propertyPath: _interactionText
-      value: 
-      objectReference: {fileID: 3169974356879286250}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -11,10 +11,11 @@ public class PauseMenu : MonoBehaviour
     const float RunningTimeScale = 1.0f;
     const int MainMenuSceneIndex = 0;
 
-    public static bool gameIsPaused = false;
-
+    //public static bool GameIsPaused = false;
     [SerializeField] GameObject _pauseMenuUI;
     [SerializeField] PlayerInput _playerInput;
+
+    bool _gameIsPaused = false;
 
     void Awake()
     {
@@ -43,7 +44,7 @@ public class PauseMenu : MonoBehaviour
 
     public void OnPause(InputValue value)
     {
-        if (value.isPressed && !gameIsPaused)
+        if (value.isPressed && !_gameIsPaused)
         {
             PauseGame();
         }
@@ -51,7 +52,7 @@ public class PauseMenu : MonoBehaviour
 
     public void OnResume(InputValue value)
     {
-        if (value.isPressed && gameIsPaused)
+        if (value.isPressed && _gameIsPaused)
         {
             ResumeGame();
         }
@@ -61,23 +62,26 @@ public class PauseMenu : MonoBehaviour
     {
         _pauseMenuUI.SetActive(true);
         Time.timeScale = PausedTimeScale;
-        gameIsPaused = true;
+        _gameIsPaused = true;
         Cursor.lockState = CursorLockMode.None;
         _playerInput.SwitchCurrentActionMap(UIActionMapName);
+        AudioListener.pause = true;
     }
 
     public void ResumeGame()
     {
         _pauseMenuUI.SetActive(false);
         Time.timeScale = RunningTimeScale;
-        gameIsPaused = false;
+        _gameIsPaused = false;
         Cursor.lockState = CursorLockMode.Locked;
         _playerInput.SwitchCurrentActionMap(PlayerActionMapName);
+        AudioListener.pause = false;
     }
 
     public void LoadMainMenu()
     {
         Time.timeScale = 1.0f;
+        AudioListener.pause = false;
         SceneManager.LoadScene(MainMenuSceneIndex);
     }
 
