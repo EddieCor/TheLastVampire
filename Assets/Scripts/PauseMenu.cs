@@ -14,8 +14,10 @@ public class PauseMenu : MonoBehaviour
     //public static bool GameIsPaused = false;
     [SerializeField] GameObject _pauseMenuUI;
     [SerializeField] PlayerInput _playerInput;
+    [SerializeField] GameObject _interactionText;
 
     bool _gameIsPaused = false;
+    bool _wasInteractionTextActive;
 
     void Awake()
     {
@@ -66,6 +68,12 @@ public class PauseMenu : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         _playerInput.SwitchCurrentActionMap(UIActionMapName);
         AudioListener.pause = true;
+
+        if(_interactionText.activeInHierarchy)
+        {
+            _interactionText.SetActive(false);
+            _wasInteractionTextActive = true;
+        }
     }
 
     public void ResumeGame()
@@ -76,6 +84,8 @@ public class PauseMenu : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         _playerInput.SwitchCurrentActionMap(PlayerActionMapName);
         AudioListener.pause = false;
+
+        if(_wasInteractionTextActive) _interactionText.SetActive(true);
     }
 
     public void LoadMainMenu()

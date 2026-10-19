@@ -2181,6 +2181,10 @@ PrefabInstance:
       propertyPath: _pauseMenuUI
       value: 
       objectReference: {fileID: 737265964696709561}
+    - target: {fileID: 5641619565365515051, guid: 6d07c09a1abc07e449de0006661b3b74, type: 3}
+      propertyPath: _interactionText
+      value: 
+      objectReference: {fileID: 3169974356879286250}
     - target: {fileID: 6915450266905024508, guid: 6d07c09a1abc07e449de0006661b3b74, type: 3}
       propertyPath: m_Name
       value: Player
