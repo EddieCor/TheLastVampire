@@ -28,4 +28,11 @@ public class CollisionHandler : MonoBehaviour
     {
         if (_highlightEffect != null) _highlightEffect.highlighted = isHighlighted;
     }
+
+    public void Disable()
+    {
+        _interactionText.SetActive(false);
+        SetHighlight(false);
+        this.gameObject.SetActive(false);
+    }
 }
