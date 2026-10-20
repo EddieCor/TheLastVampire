@@ -9,13 +9,11 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class DialogueTriggerZone : MonoBehaviour
 {
-    const float DefaultTextOnlyDuration = 3.0f;
-
     [SerializeField] GameObject _dialogueText;
     [SerializeField] AudioSource _audioSource;
     [SerializeField] AudioClip _voiceLine;
     [Tooltip("How long the text stays visible when no voice line is assigned.")]
-    [SerializeField] float _textOnlyDuration = DefaultTextOnlyDuration;
+    [SerializeField] float _textOnlyDuration = 3.0f;
 
     bool _hasTriggered;
 
