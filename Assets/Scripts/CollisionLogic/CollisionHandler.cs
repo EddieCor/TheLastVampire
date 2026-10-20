@@ -1,5 +1,4 @@
 using HighlightPlus;
-using System;
 using UnityEngine;
 
 public class CollisionHandler : MonoBehaviour
@@ -9,14 +8,20 @@ public class CollisionHandler : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        _interactionText.SetActive(true);
-        SetHighlight(true);
+        if(_interactionText != null)
+        {
+            _interactionText.SetActive(true);
+            SetHighlight(true);
+        }        
     }
 
     void OnTriggerExit(Collider other)
     {
-        _interactionText.SetActive(false);
-        SetHighlight(false);
+        if (_interactionText != null)
+        {
+            _interactionText.SetActive(false);
+            SetHighlight(false);
+        }        
     }
 
     public void SetHighlight(bool isHighlighted)

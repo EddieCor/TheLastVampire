@@ -1,4 +1,3 @@
-using HighlightPlus;
 using UnityEngine;
 
 public class PoliteCube : MonoBehaviour, IInteractable

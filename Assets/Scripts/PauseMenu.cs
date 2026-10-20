@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
@@ -26,23 +25,6 @@ public class PauseMenu : MonoBehaviour
             _playerInput = FindFirstObjectByType<PlayerInput>();
         }
     }
-
-    /*
-    public void OnPause(InputValue value)
-    {
-        if (value.isPressed)
-        {
-            if (gameIsPaused)
-            {
-                ResumeGame();
-            }
-            else
-            {
-                PauseGame();
-            }
-        }
-    }
-    */
 
     public void OnPause(InputValue value)
     {
@@ -85,7 +67,11 @@ public class PauseMenu : MonoBehaviour
         _playerInput.SwitchCurrentActionMap(PlayerActionMapName);
         AudioListener.pause = false;
 
-        if(_wasInteractionTextActive) _interactionText.SetActive(true);
+        if (_wasInteractionTextActive)
+        {
+            _interactionText.SetActive(true);
+            _wasInteractionTextActive = false;
+        }
     }
 
     public void LoadMainMenu()
