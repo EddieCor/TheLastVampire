@@ -27,5 +27,9 @@ public class CoverUpInteractable : InteractableBase
         {
             obj.SetActive(true);
         }
+
+        yield return new WaitForSeconds(_swapDelay);
+
+        _particleSystem.Stop();
     }
 }
