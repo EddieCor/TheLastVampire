@@ -2640,6 +2640,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5618812890041853949, guid: 3cb20eec78052fc43915d9cf0f867bc4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5747372275867432104, guid: 3cb20eec78052fc43915d9cf0f867bc4, type: 3}
       propertyPath: m_Name
       value: Switcheroo
