@@ -23,7 +23,9 @@ public class InteractionHandler : MonoBehaviour
 
         if(Physics.Raycast(ray, out hit, _interactionRange))
         {
-            if(hit.collider.TryGetComponent<IInteractable>(out IInteractable interactable))
+            IInteractable interactable = hit.collider.GetComponentInParent<IInteractable>();
+
+            if (interactable != null)
             {
                 interactable.Interact();
             }
