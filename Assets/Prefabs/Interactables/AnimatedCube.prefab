@@ -81,7 +81,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 9e4dd5b74d868724a93d0067c64191bb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -104,6 +104,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AnimationInteractable
   _singleUse: 1
   _collisionHandler: {fileID: 7025813112888804070}
+  _progress: {fileID: 0}
+  _requiresAllOthers: 0
   _animator: {fileID: 657630123166841280}
   _triggerName: Interact
 --- !u!114 &7025813112888804070 stripped
