@@ -1,11 +1,9 @@
-using HighlightPlus;
 using UnityEngine;
 
-public class PoliteCube : MonoBehaviour, IInteractable
+public class PoliteCube : InteractableBase
 {
-    public void Interact()
+    protected override void OnInteract()
     {
         Debug.Log("Hello, Player! Hope you're having a great day! (^_^)");
-        GetComponentInChildren<CollisionHandler>().SetHighlight(false);
     }
 }
