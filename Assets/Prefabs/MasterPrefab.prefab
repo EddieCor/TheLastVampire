@@ -3306,7 +3306,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Good thing i can see in the night, this place is so dark...
+  m_text: Good thing I can see in the night, this place is so dark...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4494,9 +4494,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Heh, i remember when Bella and i tried jumping on the bed\u2026 it\u2019s
+  m_text: "Heh, I remember when Bella and I tried jumping on the bed\u2026 it\u2019s
     the day we learned to float\u2026 and we told Florin to try it too, he was still
-    too young. i\u2019ll never forget the sound he did as he hit the floor..."
+    too young. I\u2019ll never forget the sound he did as he hit the floor..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6117,7 +6117,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Damn, i slept crooked, my neck hurts like a hanged man...
+  m_text: Damn, I slept crooked, my neck hurts like a hanged man...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7100,7 +7100,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'I dont think ill open that drawer ever again...
+  m_text: 'I dont think I''ll open that drawer ever again...
 
 '
   m_isRightToLeft: 0
@@ -7377,7 +7377,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Oh i may be in trouble...
+  m_text: 'Oh I may be in trouble...
 
 '
   m_isRightToLeft: 0
@@ -7684,7 +7684,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I wonder if Florin found the rat around here, i could go for a snack...
+  m_text: I wonder if Florin found the rat around here, I could go for a snack...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9939,7 +9939,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "To think Belladona wont steal my food again\u2026 i\u2019d share it in
+  m_text: "To think Belladona wont steal my food again\u2026 I\u2019d share it in
     a heartbeat...\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10688,7 +10688,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Now i get to sit at the head of the table, it feels almost strange...
+  m_text: 'Now I get to sit at the head of the table, it feels almost strange...
 
 '
   m_isRightToLeft: 0
