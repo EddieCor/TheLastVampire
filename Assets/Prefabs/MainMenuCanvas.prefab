@@ -894,8 +894,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 48.00002}
-  m_SizeDelta: {x: 1675, y: 100}
+  m_AnchoredPosition: {x: 25, y: 48.00002}
+  m_SizeDelta: {x: 1900, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &2425823803387418171
 CanvasRenderer:
@@ -925,7 +925,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Narrative Design - Jes\xFAs Mario Cipri\xE1n S\xE1nchez"
+  m_text: "Narrative/Animations - Jes\xFAs Mario Cipri\xE1n S\xE1nchez"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 114c065a72c74244c9993e1b8562dd58, type: 2}
   m_sharedMaterial: {fileID: 3302817868896330155, guid: 114c065a72c74244c9993e1b8562dd58, type: 2}
@@ -952,8 +952,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 55
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1031,8 +1031,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 148.00002}
-  m_SizeDelta: {x: 1675, y: 100}
+  m_AnchoredPosition: {x: 25, y: 148.00002}
+  m_SizeDelta: {x: 1900, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &8946873806660502242
 CanvasRenderer:
@@ -1089,8 +1089,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 55
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1785,8 +1785,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 248}
-  m_SizeDelta: {x: 1675, y: 100}
+  m_AnchoredPosition: {x: 25, y: 248}
+  m_SizeDelta: {x: 1900, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &4203383801940840074
 CanvasRenderer:
@@ -1816,7 +1816,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lead Programmer/QA/Tech Dev - Edgardo P\xE9rez R\xEDos Corssen"
+  m_text: "Programmer/QA/Tech Dev/Game Design - Edgardo P\xE9rez R\xEDos Corssen"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 114c065a72c74244c9993e1b8562dd58, type: 2}
   m_sharedMaterial: {fileID: 3302817868896330155, guid: 114c065a72c74244c9993e1b8562dd58, type: 2}
@@ -1843,8 +1843,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 55
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2764,8 +2764,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -51.99998}
-  m_SizeDelta: {x: 1675, y: 100}
+  m_AnchoredPosition: {x: 25, y: -51.99998}
+  m_SizeDelta: {x: 1900, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &4644586506839812790
 CanvasRenderer:
@@ -2795,7 +2795,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Animations - Alfonso V\xE1zquez Prendes"
+  m_text: "Lead Animator/Narrative Lead/VA - Alfonso V\xE1zquez Prendes"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 114c065a72c74244c9993e1b8562dd58, type: 2}
   m_sharedMaterial: {fileID: 3302817868896330155, guid: 114c065a72c74244c9993e1b8562dd58, type: 2}
@@ -3038,8 +3038,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -151.99998}
-  m_SizeDelta: {x: 1675, y: 100}
+  m_AnchoredPosition: {x: 25, y: -151.99998}
+  m_SizeDelta: {x: 1900, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &5136828838924804891
 CanvasRenderer:
@@ -3069,7 +3069,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tech Dev - Carolina Hern\xE1ndez Pacheco"
+  m_text: "Tech Dev/Animations - Carolina Hern\xE1ndez Pacheco"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 114c065a72c74244c9993e1b8562dd58, type: 2}
   m_sharedMaterial: {fileID: 3302817868896330155, guid: 114c065a72c74244c9993e1b8562dd58, type: 2}
