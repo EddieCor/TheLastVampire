@@ -18,6 +18,7 @@ public class EndGameSequence : MonoBehaviour
 
     [SerializeField] GameObject _endScreen;
     [SerializeField] PlayerInput _playerInput;
+    [SerializeField] GameObject _dialogueText;
 
     [Header("Timing")]
     [Tooltip("Seconds to wait for the final animation before the audio plays.")]
@@ -27,6 +28,9 @@ public class EndGameSequence : MonoBehaviour
     [SerializeField] AudioSource _audioSource;
     [SerializeField] AudioClip _endClip;
     [Tooltip("Seconds to wait before the end screen when no clip is assigned.")]
+    [SerializeField] AudioSource _musicAudioSource;
+    [SerializeField] AudioClip _endGameMusic;
+
     [SerializeField] float _noAudioDelay = DefaultNoAudioDelay;
 
     bool _hasStarted;
@@ -74,6 +78,8 @@ public class EndGameSequence : MonoBehaviour
 
         float audioDuration = _noAudioDelay;
 
+        _dialogueText.SetActive(true);
+
         if (_audioSource != null && _endClip != null)
         {
             _audioSource.PlayOneShot(_endClip);
@@ -83,6 +89,8 @@ public class EndGameSequence : MonoBehaviour
         yield return new WaitForSeconds(audioDuration);
 
         _endScreen.SetActive(true);
+        _musicAudioSource.clip = _endGameMusic;
+        _musicAudioSource.Play();
         Cursor.lockState = CursorLockMode.None;
         Time.timeScale = PausedTimeScale;
     }

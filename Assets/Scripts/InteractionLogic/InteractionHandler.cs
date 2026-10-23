@@ -1,9 +1,11 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class InteractionHandler : MonoBehaviour
 {
     [SerializeField] Transform _rayCastOrigin;
+    [SerializeField] Animator _playerAnimator;
     [SerializeField] float _interactionRange = 10.0f;
 
     public void OnInteract(InputValue value)
@@ -27,6 +29,7 @@ public class InteractionHandler : MonoBehaviour
 
             if (interactable != null)
             {
+                _playerAnimator.SetTrigger("Fixing");
                 interactable.Interact();
             }
         }
