@@ -47,9 +47,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EndGameSequence
   _endScreen: {fileID: 0}
   _playerInput: {fileID: 0}
+  _dialogueText: {fileID: 0}
   _animationDuration: 2
   _audioSource: {fileID: 58422562940575753}
   _endClip: {fileID: 8300000, guid: 3a03f886774a1f34c8b992fc0856614c, type: 3}
+  _musicAudioSource: {fileID: 0}
+  _endGameMusic: {fileID: 8300000, guid: 16c0aa0c596827041a40f130dcc8a528, type: 3}
   _noAudioDelay: 1
 --- !u!82 &58422562940575753
 AudioSource:

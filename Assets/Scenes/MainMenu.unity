@@ -396,6 +396,10 @@ PrefabInstance:
       value: MusicPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 7255666198814357772, guid: c4a78a535cf5a554aa2c483c337e6906, type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255666198814357772, guid: c4a78a535cf5a554aa2c483c337e6906, type: 3}
       propertyPath: m_Resource
       value: 
       objectReference: {fileID: 8300000, guid: 374186a9e9204594abc7d17a8d785d84, type: 3}

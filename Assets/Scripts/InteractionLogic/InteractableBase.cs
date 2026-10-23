@@ -5,6 +5,7 @@ public abstract class InteractableBase : MonoBehaviour, IInteractable
 {
     [SerializeField] bool _singleUse = true;
     [SerializeField] CollisionHandler _collisionHandler;
+    [SerializeField] AudioSource _audioSource;
 
     [Header("Cleaning progress (optional)")]
     [SerializeField] CleaningProgress _progress;
@@ -28,6 +29,8 @@ public abstract class InteractableBase : MonoBehaviour, IInteractable
         }
 
         _hasInteracted = _singleUse;
+
+        _audioSource.Play();
 
         OnInteract();
         _onInteracted.Invoke();
