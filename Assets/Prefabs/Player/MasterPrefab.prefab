@@ -17059,6 +17059,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6915450266905024508, guid: 6d07c09a1abc07e449de0006661b3b74, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6081808580905867980}
+    - targetCorrespondingSourceObject: {fileID: 6915450266905024508, guid: 6d07c09a1abc07e449de0006661b3b74, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5260592863678533662}
   m_SourcePrefab: {fileID: 100100000, guid: 6d07c09a1abc07e449de0006661b3b74, type: 3}
 --- !u!95 &24600607661474529 stripped
 Animator:
@@ -17105,6 +17108,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NoteHandler
   _playerInput: {fileID: 538930912132007679}
   _closeNoteText: {fileID: 9124631645733060323}
+--- !u!114 &5260592863678533662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5588291085197786127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a22ec40ab8e38488a6a0fa17385e4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CursorLockOnClick
+  _playerInput: {fileID: 538930912132007679}
 --- !u!114 &6646762573199997144 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5641619565365515051, guid: 6d07c09a1abc07e449de0006661b3b74, type: 3}
